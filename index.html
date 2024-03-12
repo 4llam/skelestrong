@@ -61,9 +61,11 @@
                     <li> <a href="#hero" class="nav-link scrollto active"> <i class="bx bx-home">  </i> <span>Inicio</span> </a> </li>
                     <li> <a href="#about" class="nav-link scrollto"> <i class="bx bx-user">  </i> <span>Sobre nós</span> </a> </li>
                     <li> <a href="#facts" class="nav-link scrollto"> <i class="bx bx-bar-chart">  </i> <span>Estatísticas</span> </a> </li>
-                    <li> <a href="#skills" class="nav-link scrollto"> <i class='bx bx-loader'></i> <span>Habilidades</span> </a> </li>
-                    <li> <a href="#resume" class="nav-link scrollto"> <i class='bx bx-loader'></i> <span>Resumo</span> </a> </li>
+                    <li> <a href="#skills" class="nav-link scrollto"> <i class='bx bx-trending-up'></i> <span>Favoritos</span> </a> </li>
+                    <li> <a href="#resume" class="nav-link scrollto"> <i class='bx bx-history'></i> <span>História</span> </a> </li>
                     <li> <a href="#portfolio" class="nav-link scrollto"> <i class="bx bx-cart"></i> <span>Produtos</span> </a> </li>
+                    <li> <a href="#services" class="nav-link scrollto"> <i class="bx bx-info-circle"></i> <span>Informações</span> </a> </li>
+                    <li> <a href="#contact" class="nav-link scrollto"> <i class="bx bx-user-pin"></i> <span>Contato</span> </a> </li>
                     <!-- bx bx-cart-add -->
                 </ul>
             </nav><!--Fim do NAV = MENU-->
@@ -501,7 +503,7 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-title">
-                <h2> Produtos </h2>
+                <h2> Informações </h2>
                 <p>Não tem ideia de como funcionam os produtos da SkeleStrong? <br>
                 Aqui está um tópico para te explicar tudo que você precisa saber para decidir qual a melhor opção de suplementação pro seu treino e pra sua saúde!</p>
             </div> <!-- FIM DO TITULO -->
@@ -683,14 +685,36 @@
                         <div class="row">
 
                             <article class="form-group col-md-6">
-
                                 <label for="name"> Nome: *</label>
-
-                                <input type="text" placeholder="Nome Completo" required>
-
+                                <input type="text" placeholder="Nome Completo" required class="form-control">
                             </article>
 
+                            <article class="form-group col-md-6">
+                                <label for="email"> E-mail: </label>
+                                <input type="email" class="form-control" required>
+                            </article>
+
+                            <article class="form-group col-md-6">
+                                <label for="phone"> Telefone: </label>
+                                <input type="tel" class="form-control" required>
+                            </article>
+                            
+                        </div> <!-- FIM DA DIV ROW DO FORM-->
+
+                        <article class="form-group">
+                            <label for="subject"> Assunto: </label>
+                            <input type="text" class="form-control" required>
+                        </article>
+
+                        <article class="form-group">
+                            <label for="message"> Digite sua mensagem: </label>
+                            <textarea  class="form-control" name="message"  rows="10"> </textarea>
+                        </article>
+
+                        <div class="text-center">
+                            <button type="submit"> Enviar </button>
                         </div>
+
                     </form>
 
                 </div> <!-- FIM DA DIV FORM-->
@@ -706,16 +730,16 @@
         <i class="bi bi-arrow-up"></i>
     </a>
 
-    <footer id="footer"> <!-- PARTE DE BAIXO DO COPYRIGHT -->
+    <footer id="footer"> <!-- PARTE DE BAIXO [RODAPÉ] -->
         <div class="container">
           <div class="copyright">
-            &copy; Copyright <strong><span>SkeleStrong</span></strong>
+            &copy; Todos os Direitos Reservados <strong><span>SkeleStrong</span></strong>
           </div>
           <div class="credits">
             Feito por: <a href="https://github.com/4llam" target="_blank">Allam F. Costa</a>
           </div>
         </div>
-      </footer><!-- Fim da parte de baixo -->
+      </footer><!-- Fim do Rodapé -->
 
 
     
