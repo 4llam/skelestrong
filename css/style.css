@@ -1038,11 +1038,13 @@ section {
 .breadcrumbs {
   padding: 20px 0;
   background: #f9f9f9;
+  font-family: "Madimi One", sans-serif;
 }
 
 .breadcrumbs h2 {
   font-size: 26px;
   font-weight: 300;
+  font-family: "Madimi One", sans-serif;
 }
 
 .breadcrumbs ol {
